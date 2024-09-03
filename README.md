@@ -1,1 +1,1 @@
-# Exerc-cios-Pyhton
+# Exercícios-Pyhton

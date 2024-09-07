@@ -2,13 +2,19 @@
 
 
 
-horas_mensais = int(input( "Quantas horas foram trabalhadas no mês? "))
-salario_hora = float(input( "Qual é o salário por hora? "))
+horas_semanais = int(input(" Quantas horas foram trabalhadas na semana? "))
+salario_hora = float(input( " Digite o salário por hora:  "))
+print(" O salário por hora é: ",salario_hora)
+horasMensais = horas_semanais * 4 
+print(" O número de horas trabalhadas no mês é: ",horasMensais, 'horas' )
 
-
-if horas_mensais >40:
+if horas_semanais >40:
     acrescimo = 0.50 * salario_hora
-    print(acrescimo)
+    print(" O valor do acréscimo é: ",acrescimo)
+    salario_total = horas_semanais + salario_hora + acrescimo
+    print(" O salário total é: ",salario_total) 
+else:
+    salario_total = horas_semanais + salario_hora
+    print(" O salário total é: ",salario_total) 
+    
 
-salario_total = horas_mensais + salario_hora
-print( "O salário total é: ",salario_total)    

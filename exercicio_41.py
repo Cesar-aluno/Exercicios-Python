@@ -7,3 +7,13 @@ nota2 = float(input("Digite a segunda nota: "))
 nota3 = float(input("Digite a terceira nota: ")) 
 
 media_aproveitamento = nota1 + (nota2 * 2 ) + (nota3 * 3 ) / 7
+print(media_aproveitamento)
+
+if media_aproveitamento >=9:
+    print("Nota A!")
+elif media_aproveitamento >= 7.5 and < 9:
+    print("Nota B!")
+elif media_aproveitamento >= 6 and <7.5:
+    print("Nota C!")
+elif media_aproveitamento < 6:
+    print("Nota D!")

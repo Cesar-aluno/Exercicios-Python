@@ -7,17 +7,20 @@
 '''
 
 
+
 def calculaHomem():
     if idade >= 65:
         print(" Candidato para aposentadoria!")
     else:
-        print(" Rejeitado para aposentadoria!")
+        print(" Idade rejeitada para aposentadoria!")
     if tempoTrabalhado >= 30:
         print(" Aprovado para aposentadoria!")
     
 def calculaMulher():
     if idade >= 60:
         print(" Candidata para aposentadoria!")
+    else:
+        print(" Idade rejeitada para aposentadoria!")
     if tempoTrabalhado >= 25:
         print(" Aprovada para aposentadoria!")
 
@@ -36,6 +39,12 @@ elif pessoa == "Mulher" or pessoa == 'M' or pessoa == 'm':
     calculaMulher()
 else:
     print(" Valor inválido!")
+
+
+
+
+
+
 
 
 
